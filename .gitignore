@@ -1,0 +1,43 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# --- Environment / secrets (CRITICAL) ---
+.env
+.env.local
+.env.*.local
+
+# --- Node / React ---
+node_modules/
+dist/
+dist-ssr/
+frontend-react/dist/
+frontend-react/.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Local data (don't commit personal PDFs or local index) ---
+data/uploads/*
+data/index/*
+!data/uploads/.gitkeep
+!data/index/.gitkeep
+
+# --- IDE / Editor ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.suo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
