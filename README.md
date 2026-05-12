@@ -2,6 +2,8 @@
 
 A full-stack Retrieval-Augmented Generation (RAG) application that answers questions about your PDFs, grounded strictly in their content. Upload a document, ask a question, and get a source-cited answer instead of a hallucinated one.
 
+![RAG QA Assistant analyzing Microsoft's 2025 Annual Report](docs/screenshot.png)
+
 ![Status](https://img.shields.io/badge/status-MVP-green) ![Python](https://img.shields.io/badge/python-3.10+-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ## Features
